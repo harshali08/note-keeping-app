@@ -1,0 +1,78 @@
+.main_cont{
+    display: flex;
+    justify-content: center;
+    margin-top:8px;
+}
+
+.cont{
+
+    padding-top:10px;
+    width:800px;
+    height:27vh;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.cont h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+}
+
+.input_cont {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+
+
+/* .input_cont input {
+    width:700px;
+    border: None;
+    height:60px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+.title{
+    width:700px;
+    background-color: transparent;
+    border: 0px solid;
+    height:20px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.note{
+    width:700px;
+    border: hidden;
+    height:60px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.note:focus {
+    outline: none;
+  }
+
+  .title:focus {
+    outline: none;
+  }
+
+.cont button{
+    background-color:  rgb(252, 177, 57);
+    border: none;
+    color: white;
+    font-size: 3.3rem;
+    float: right;
+    margin-top:2px;
+
+}
+
+.cont button:hover{
+cursor: pointer;
+    background-color: rgb(249, 167, 35);
+}

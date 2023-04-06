@@ -1,0 +1,38 @@
+
+.note_main_cont{
+padding:10px;
+}
+.note_cont{
+    
+    margin:20px;
+    padding:20px;
+    width:320px;
+    height:185px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    word-wrap: break-word;
+}
+
+.note_cont button{
+    background-color:  rgb(252, 177, 57);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    float: right;
+    margin-bottom:4px;
+}
+
+.note_cont button:hover{
+    cursor: pointer;
+    background-color: rgb(249, 167, 35);
+  
+}
+
+.note_cont h3{
+    text-align: center;
+}
+
+.note_cont p{
+ height:110px;
+ margin-top:20px;
+}
