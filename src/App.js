@@ -8,14 +8,15 @@ function App() {
  
   const [addItem,setAddItem]=useState([])
   const addNote=(notes)=>{
-
+    
     console.log("clicked");
     console.log(notes)
+   
     setAddItem((preData)=>{
         return [...preData,notes]
     })
     console.log(notes)
-    
+  
   }
 
   const deleteItems=(id)=>{

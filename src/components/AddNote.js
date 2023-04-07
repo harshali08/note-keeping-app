@@ -9,7 +9,12 @@ function AddNote(props) {
     })
 
     const addEvent=()=>{
+      if(notes.title!=='' || notes.note!==''){
      props.passNote(notes)
+      }
+      else{
+        alert("Add a note!")
+      }
      setNotes({
       title:"",
       note:"",
